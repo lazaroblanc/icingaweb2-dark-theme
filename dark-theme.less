@@ -17,17 +17,6 @@
 @icinga-blue: @base1;
 @low-sat-blue: @base00;
 
-// @color-ok: hsl(90, 100%, 50%);
-// @color-critical: hsl(1, 100%, 50%);
-// @color-critical-handled: @color-critical;
-// @color-warning: hsl(45, 100%, 41%);
-// @color-warning-handled: hsl(45, 100%, 35%);
-// @color-unknown: hsl(237, 43%, 60%);
-// @color-unknown-handled: hsl(230, 32%, 39%);
-// @color-unreachable: hsl(175, 59%, 40%);
-// @color-unreachable-handled: hsl(175, 60%, 28%);
-// @color-pending: hsl(205, 69%, 49%);
-
 // Notification colors
 @color-notification-error: @color-critical;
 @color-notification-info: @color-pending;
@@ -35,7 +24,7 @@
 @color-notification-warning: @color-warning-handled;
 
 ul#notifications li {
-    color: @base03  !important;
+    color: @base2  !important;
 }
 
 // Announcement banner
@@ -108,7 +97,7 @@ div#mobile-menu-toggle {
     background-color: @base02;
 
     >li>a {
-        color: @base00;
+        color: @base1;
     }
 }
 
@@ -127,29 +116,6 @@ div#mobile-menu-toggle {
 input,
 select {
     background-color: @body-bg-color;
-}
-
-#login {
-    background: #ffffff url("https://images.unsplash.com/photo-1473984951266-787b955c9e0b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80") no-repeat fixed bottom center;
-    background-size: cover;
-
-    .control-label {
-        color: @base0;
-    }
-
-    input[type=submit] {
-        color: @base2;
-        background-color: @base03;
-    }
-
-    input[type=submit]:hover {
-        color: @base2;
-        background-color: @base01;
-    }
-}
-
-#login-footer {
-    color: @base01;
 }
 
 #about>img {
